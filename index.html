@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    
+    <link rel="shortcut icon" type="image/png" href="./image/favicon.ico"/>
+    <title>MediaMonks | The Path to Digital Enlightenment</title>
+
+    <meta name="description" content="Global creative production partner" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="./script.js"></script>
+  </head>
+  
+  <body onLoad="removeCover()">
+    
+    <div id="preloaded-images">
+      <img src="./image/monk.png" width="1" height="1" alt="Image 01" />
+      <img src="./image/loaderbg.png" width="1" height="1" alt="Image 02" />
+    </div>
+
+    <div id="cover" class="cover">
+      <img src="./image/monk.png" />
+      <span>Patience young padawan...</span>
+    </div>
+
+    <div class="logo">
+      <svg src="./image/logo.svg" type="image/svg+xml" fill="white">
+        <img src="./image/mediamonks_logo_new.png" width="120" />
+      </svg>
+    </div>
+
+    <div class="pagination">
+      <ul class="pagination__list">
+        <li class="pagination__list__item" onClick="navigateTo(0)"></li>
+        <li class="pagination__list__item" onClick="navigateTo(1)">1</li>
+        <li class="pagination__list__item" onClick="navigateTo(2)">2</li>
+        <li class="pagination__list__item" onClick="navigateTo(3)">3</li>
+        <li class="pagination__list__item" onClick="navigateTo(4)">4</li>
+        <li class="pagination__list__item" onClick="navigateTo(5)">5</li>
+        <li class="pagination__list__item" onClick="navigateTo(6)">6</li>
+        <li class="pagination__list__item" onClick="navigateTo(7)">7</li>
+        <li class="pagination__list__item" onClick="navigateTo(8)">8</li>
+        <li class="pagination__list__item" onClick="navigateTo(9)"></li>
+      </ul>
+      <span id="step"></span>
+    </div>
+
+    <div class="navigation__left" id="navigation__left" onClick="navigateLeft()">
+      <
+    </div>
+
+    <div class="navigation__right" id="navigation__right" onClick="navigateRight()">
+      >
+    </div>
+    
+    <div class="container" id="container">
+      <div class="page" id="page0">
+        <div class="highlight">
+          <span>WE ARE BREAKING</span><br/>
+          <span>OUR VOW</span><br/>
+          <span>OF SILENCE</span>
+        </div>
+        <div class="description">
+          <span>In January 2011, after a decade of digital, we opened the doors to our temple.</span><br>
+          <span>Follow our noble eightfold path to digital enlightenment here.</span>
+        </div>
+      </div>
+
+      <div class="page" id="page1">
+        <div class="highlight">
+          <span>TALENT IS GIVEN</span><br/>
+          <span>TRUE SKILL IS</span><br/>
+          <span>EARNED</span>
+        </div>
+      </div>
+
+      <div class="page" id="page2">
+        <div class="highlight">
+          <span>BE FLEXIBLE TO</span><br/> 
+          <span>CHANGE AND</span><br/> 
+          <span>STURDY IN</span><br/> 
+          <span>CONVICTION</span>
+        </div>
+      </div>
+
+      <div class="page" id="page3">
+        <div class="highlight">
+          <span>USE MANY SKILLS</span><br/>
+          <span>YET WORK AS ONE</span>
+        </div>
+      </div>
+
+      <div class="page" id="page4">
+        <div class="highlight">
+          <span>TO MASTER</span><br/>
+          <span>ANYTHING FIND</span><br/>
+          <span>INTEREST IN</span><br/>
+          <span>EVERYTHING</span>
+        </div>
+      </div>
+
+      <div class="page" id="page5">
+        <div class="highlight">
+          <span>INDIVIDUALS</span><br/>
+          <span>FLOURISH</span><br/>
+          <span>IF CULTURE</span><br/>
+          <span>AND WISDOW</span><br/>
+          <span>ARE SHARED</span>
+        </div>
+      </div>
+
+      <div class="page" id="page6">
+        <div class="highlight">
+          <span>TRAIN FOR</span><br/>
+          <span>PERFECTION BUT</span><br/>
+          <span>AIM FOR MORE</span>
+        </div>
+      </div>
+
+      <div class="page" id="page7">
+        <div class="highlight">
+          <span>TAKE PRIDE IN YOUR</span><br/>
+          <span>WORK BUT DO NOT</span><br/>
+          <span>SEEK PRAISE</span>
+        </div>
+      </div>
+
+      <div class="page" id="page8">
+        <div class="highlight">
+          <span>TEMPORARY</span><br/>
+          <span>SACRIFICE BRINGS</span><br/>
+          <span>LASTING RESULTS</span>
+        </div>
+      </div>
+
+      <div class="page" id="page9">
+        <div class="highlight">
+          <span>BECOME A MONK</span>
+        </div>
+
+        <div class="description">
+          <div>
+            Interested in joining our monastery? <br/>
+            Checkout out our current openings on <a href="https://www.mediamonks.com/careers">mediamonks.com/careers</a>.
+          </div>
+
+          <div>
+            <a href="mailto:wesley@mediamonks.com" class="link" target="_blank">
+              <img src="./image/svg/mail.svg" width="20" style="filter: invert(100%);"/>
+              <span>Mail ons</span>
+            </a>
+            <a href="https://www.facebook.com/mediamonks" class="link" target="_blank">
+              <img src="./image/svg/facebook.svg" width="20" style="filter: invert(100%);"/>
+              <span>Facebook</span>
+            </a>
+            <a href="http://www.twitter.com/mediamonks" class="link" target="_blank">
+              <img src="./image/svg/twitter.svg" width="20" style="filter: invert(100%);"/>
+              <span>Twitter</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
